@@ -3,9 +3,9 @@ from itertools import count
 import mysql.connector
 
 
-HOSTNAME="192.168.0.159" #input()
+HOSTNAME=input()
 USERNAME='kathy'
-USERPASW="galileo2022" #input()
+USERPASW=input()
 DB_NAME="pokemon"
 TAB_NAME="poke_leg"
 

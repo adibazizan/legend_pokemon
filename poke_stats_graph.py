@@ -10,7 +10,6 @@ params =['Attack','Defense','Sp. Atk','Sp. Def','Speed']
 zapdos =[110,90,154,90,130]
 
 angles =np.linspace(0,2*np.pi, len(params), endpoint = False)
-print(angles)
 
 angles=np.concatenate((angles,[angles[0]]))
 params.append(params[0])
